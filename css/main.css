@@ -1,0 +1,104 @@
+header{
+    background-color: #cc202e;
+    color: aliceblue;
+}
+
+header a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    margin: 2px;
+    
+}
+
+header a:hover, a:active, a:visited{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+header h2 a:active, a:visited{
+    border: none;
+    
+}
+
+header ul li{
+    list-style-type: none;
+    float: left;
+}
+
+header ul li a:hover, a:active{
+    border-bottom: solid;
+    opacity: 0.7;
+}
+
+
+#after-header{
+    background-image: url("../images/abstract-barb-wires-blur-116021.jpg");
+    background-size: cover;
+/*    max-height: 400px;*/
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#after-header p{
+    color: aliceblue;
+    padding-top: 275px;
+}
+
+
+#veg-nonveg{}
+
+#veg{
+    background-image: url(../images/blur-breakfast-chef-262978.jpg);
+    background-size: cover;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#nonveg{
+    background-image: url(../images/close-up-cooking-cuisine-958545.jpg);
+    background-size: cover;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.text-content{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: aliceblue;
+/*    transform: translate(-50%, -50%0);*/
+}
+
+#veg:hover, #nonveg:hover{
+    opacity: 0.6;
+}
+
+
+
+#discover-store{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    padding-top: 20px;
+    height: auto;
+    font-family: sans-serif;
+}
